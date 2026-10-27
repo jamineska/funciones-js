@@ -1,5 +1,4 @@
-/*
-Ejercicio 1: Saludo personalizado
+/*Ejercicio 1: Saludo personalizado
 Crea una función llamada saludar que acepte un nombre como argumento y devuelva un mensaje de saludo como: "¡Hola, [nombre]!".
 
 Ejercicio 2: Suma de dos números
@@ -10,5 +9,20 @@ Ejercicio 3: Números pares Escribe una función llamada esPar que reciba un 
 Ejercicio 4: Mayor de tres números Escribe una función llamada mayorDeTres que reciba tres números como argumentos y devuelva el número mayor.
 
 Ejercicio 5: Conversión de grados Celsius a Fahrenheit
-Crea una función llamada celsiusAFahrenheit que convierta una temperatura de grados Celsius a Fahrenheit usando la fórmula: F = (C * 9/5) + 32.
-*/
+Crea una función llamada celsiusAFahrenheit que convierta una temperatura de grados Celsius a Fahrenheit usando la fórmula: F = (C * 9/5) + 32.*/
+
+//ejercicio 1 escribir nommbre y retorne con un saludo "¡Hola [nombre]!"
+
+function saludar (nombre) {
+  if (nombre) {
+  return "¡Hola! " + nombre
+}
+}
+console.log(saludar ("jamile"))
+
+//ejercicio 2 Suma de dos números
+function sumar (a,b) {
+return a + b;
+}
+console.log(sumar(5,7));
+
