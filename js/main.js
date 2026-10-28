@@ -26,3 +26,12 @@ return a + b;
 }
 console.log(sumar(5,7));
 
+//ejercicio 3 espar, si "true" y sino "false"
+function espar (i=numero) {
+if (i %2==0) { //comprobamos si es par a través del módulo(%) numero 2 (par), y si es par, cumple la condicional.
+   return "true" }
+   else {
+    return "False"
+  } //comprobamos si es impar si no cumple la función
+}
+ console.log(5 %2==0);
